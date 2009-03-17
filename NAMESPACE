@@ -1,0 +1,3 @@
+exportPattern("^[^\\.]")
+gsl:::hyperg_2F1
+rmeta:::metaplot
