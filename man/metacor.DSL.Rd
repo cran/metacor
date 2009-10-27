@@ -1,3 +1,4 @@
+\encoding{latin1}
 \name{metacor.DSL}
 \alias{metacor.DSL}
 \title{DerSimonian-Laird (DSL) meta-analytical approach with correlation coefficients as effect sizes}
@@ -5,7 +6,8 @@
 Implements the DerSimonian-Laird (DSL) random-effect meta-analytical approach with correlation coefficients as effect sizes, as described by Schulze (2004).
 }
 \usage{
-metacor.DSL(r, n, labels, alpha = 0.05, plot = TRUE, xlim = c(-1, 1), transform = TRUE)
+metacor.DSL(r, n, labels, alpha = 0.05, plot = TRUE,
+   xlim = c(-1, 1), transform = TRUE)
 }
 \arguments{
   \item{r}{vector of correlations}
@@ -31,7 +33,7 @@ metacor.DSL(r, n, labels, alpha = 0.05, plot = TRUE, xlim = c(-1, 1), transform 
   \item{p}{the p-value for the null hypothesis H0 -> z.mean = 0}
 }
 \references{Schulze, R. (2004) Meta-analysis: a comparison of approaches. Hogrefe & Huber, Gottingen, Germany.}
-\author{Etienne Laliberte \email{etiennelaliberte@gmail.com} \url{http://www.elaliberte.info/}}
+\author{Etienne Laliberté \email{etiennelaliberte@gmail.com} \url{http://www.elaliberte.info/}}
 \seealso{\code{\link{metacor.OP}}}
 \examples{
 data(lui)

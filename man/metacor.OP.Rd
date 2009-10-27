@@ -1,3 +1,4 @@
+\encoding{latin1}
 \name{metacor.OP}
 \alias{metacor.OP}
 %- Also NEED an '\alias' for EACH other topic documented here.
@@ -29,7 +30,7 @@ metacor.OP(r, n, labels, alpha = 0.05, plot = TRUE, xlim = c(-1, 1))
   \item{p}{the p-value for the null hypothesis H0 -> G.mean = 0}
 }
 \references{Schulze, R. (2004) Meta-analysis: a comparison of approaches. Hogrefe & Huber, Gottingen, Germany.}
-\author{Etienne Laliberte \email{etiennelaliberte@gmail.com} \url{http://www.elaliberte.info/}}
+\author{Etienne Laliberté \email{etiennelaliberte@gmail.com} \url{http://www.elaliberte.info/}}
 \seealso{\code{\link{metacor.DSL}}}
 \examples{
 data(lui)

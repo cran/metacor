@@ -1,3 +1,4 @@
+\encoding{latin1}
 \name{lui}
 \alias{lui}
 \docType{data}
@@ -16,6 +17,6 @@ This dataset contains the correlation coefficients between land use intensity an
   }
 }
 \source{
-Laliberte et al. (in preparation) Land use intensification reduces response diversity in plant communities.
+Laliberté, E., Wells J., DeClerck F., Metcalfe D.J., Catterall C.P., Queiroz C., Aubin I., Bonser S.P., Ding Y., Fraterrigo J.M., McNamara S., Morgan J.W., Sanchez-Merlos D, Vesk PA and Mayfield MM. 2009. Land use intensification reduces functional redundancy and response diversity in plant communities. \emph{Ecology Letters} \bold{in press}.
 }
 \keyword{datasets}

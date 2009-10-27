@@ -1,3 +1,4 @@
+\encoding{latin1}
 \name{metacor-package}
 \alias{metacor-package}
 \alias{metacor}
@@ -19,9 +20,9 @@ LazyLoad: \tab yes\cr
 }
 }
 \author{
-Etienne Laliberte
+Etienne Laliberté
 
-Maintainer: Etienne Laliberte \email{etiennelaliberte@gmail.com} \url{http://www.elaliberte.info/}
+Maintainer: Etienne Laliberté \email{etiennelaliberte@gmail.com} \url{http://www.elaliberte.info/}
 }
 \references{
 Schulze, R. (2004) Meta-analysis: a comparison of approaches. Hogrefe & Huber, Gottingen, Germany.
