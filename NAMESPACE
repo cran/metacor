@@ -1,1 +1,5 @@
 exportPattern("^[^\\.]")
+
+importFrom("stats", "pnorm", "qnorm")
+importFrom("gsl", "hyperg_2F1")
+importFrom("rmeta", "metaplot")
