@@ -1,19 +1,20 @@
 Package: metacor
 Type: Package
-Title: Meta-Analysis of Correlation Coefficients
-Version: 1.0-2.1
-Date: 2011-03-21
-Author: Etienne Laliberté
-Maintainer: Etienne Laliberté <etiennelaliberte@gmail.com>
-Description: Implement the DerSimonian-Laird (DSL) and Olkin-Pratt (OP)
-        meta-analytical approaches with correlation coefficients as
-        effect sizes.
-License: GPL-2
-LazyLoad: yes
-LazyData: yes
-Depends: R (>= 2.8.0), rmeta, gsl
-Encoding: latin1
-Packaged: 2019-10-02 15:26:47 UTC; hornik
-Repository: CRAN
-Date/Publication: 2019-10-02 15:27:57 UTC
+Title: Meta-Analytic Effect Size Calculation for Pre-Post Designs with
+        Correlation Imputation
+Version: 1.1.1
+Authors@R: c(person(given = c("Iker", "J."), family = "Bautista", role = c("aut", "cre"), email = "ikerugr@gmail.com"), person(given = c("Saul", "M."), family = "Rodriguez", role = "ctb", email = "saulmrguez@gmail.com"))
+Maintainer: Iker J. Bautista <ikerugr@gmail.com>
+Description: Tools for the calculation of effect sizes (standardised mean difference) and mean difference in pre-post controlled studies, including robust imputation of missing variances (standard deviation of changes) and correlations (Pearson correlation coefficient). The main function metacor_dual() implements several methods for imputing missing standard deviation of changes or Pearson correlation coefficient, and generates transparent imputation reports. Designed for meta-analyses with incomplete summary statistics. For more details on the methods, see Higgins et al. (2023) and Fu et al. (2013).
+License: MIT + file LICENSE
+Encoding: UTF-8
+RoxygenNote: 7.3.2
+Imports: officer, stringr, stats
+Suggests: knitr, rmarkdown
+VignetteBuilder: knitr
 NeedsCompilation: no
+Packaged: 2025-07-20 16:10:54 UTC; Iker
+Author: Iker J. Bautista [aut, cre],
+  Saul M. Rodriguez [ctb]
+Repository: CRAN
+Date/Publication: 2025-07-22 11:11:51 UTC
