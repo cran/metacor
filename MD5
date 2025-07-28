@@ -1,11 +1,11 @@
-6f63e351c5935dab0d34c6f4f75219ab *DESCRIPTION
+67b6003742612bf6c6234ef503cde5b6 *DESCRIPTION
 b6bf434ffd3741482d63c58d9db9b8d4 *LICENSE
 736788bbb844395588a78d9a1eb54485 *NAMESPACE
-3e2eac55e5022a47612da3ef9ee0bf44 *R/metacor_dual.R
+43cc0d4c8fbaa35d29d3ef491c457fe4 *R/metacor_dual.R
 7494eb07197c6e26fd8d4497a5870415 *README.md
 34d2323701a5b3871ecf4f1603a21915 *build/vignette.rds
 9d9c6232ceba44eee9cb581a17a45d07 *inst/doc/introduccion.R
 ce8342efb9d927a9695b62f57b137ad2 *inst/doc/introduccion.Rmd
-3c61b1c52932663522faf473756577bd *inst/doc/introduccion.html
+4f944a4b465649ade9efcb95c4bdebce *inst/doc/introduccion.html
 1d8cc4c48bec9f13edd5c085235adceb *man/metacor_dual.Rd
 ce8342efb9d927a9695b62f57b137ad2 *vignettes/introduccion.Rmd
